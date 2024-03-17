@@ -37,6 +37,7 @@ const Index = () => {
           Swiftly convert your learning materials into engaging digital assessments for your students.
         </Text>
         <Image src="https://images.unsplash.com/photo-1610500796385-3ffc1ae2f046?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w1MDcxMzJ8MHwxfHNlYXJjaHwxfHxzdHVkZW50cyUyMGxlYXJuaW5nJTIwb25saW5lfGVufDB8fHx8MTcxMDY2MzIzMHww&ixlib=rb-4.0.3&q=80&w=1080" alt="Students learning online" />
+        <Image src="https://images.unsplash.com/photo-1580894908361-967195033215?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w1MDcxMzJ8MHwxfHNlYXJjaHwxfHx0ZWFjaGVyJTIwY3JlYXRpbmclMjBhc3Nlc3NtZW50fGVufDB8fHx8MTcxMDY2MzIzMHww&ixlib=rb-4.0.3&q=80&w=1080" alt="Teacher creating an online assessment" />
         <Textarea value={material} onChange={(e) => setMaterial(e.target.value)} placeholder="Paste your learning material here..." size="lg" minHeight="200px" />
         <Select value={questionType} onChange={(e) => setQuestionType(e.target.value)}>
           <option value="multiple">Multiple Choice</option>
